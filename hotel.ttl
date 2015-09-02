@@ -1,0 +1,85 @@
+# sw-ex
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix hotel: <http://hotel.org/> .
+@predix info: <http://infomation.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+hotel:Laurin  info:fullName   "Parkhotel Laurin"@en ;
+              info:star       "4"^^xsd:integer ;
+              info:dianZan    "386"^^xsd:integer ;
+              info:score      "9.3"^^xsd:double ;
+              info:reviews    "1187"^^xsd:integer ;
+              info:phone      "3141-5926";
+              info:price      "501"^^xsd:integer .
+
+hotel:Scala   info:fullName   "Hotel Stiegl Scala"@en ;
+              info:star       "4"^^xsd:integer ;
+              info:dianZan    "231"^^xsd:integer ;
+              info:score      "8.3"^^xsd:double ;
+              info:reviews    "489"^^xsd:integer ;
+              info:phone      "5358-9793";
+              info:price      "480"^^xsd:integer .
+
+hotel:Hof     info:fullName   "Hotel Magdalener Hof"@en ;
+              info:star       "3"^^xsd:integer ;
+              info:dianZan    "520"^^xsd:integer ;
+              info:score      "8.4"^^xsd:double ;
+              info:reviews    "661"^^xsd:integer ;
+              info:phone      "2384-6264";
+              info:price      "468"^^xsd:integer .
+
+hotel:Regina  info:fullName   "Hotel Regina"@en ;
+              info:star       "3"^^xsd:integer ;
+              info:dianZan    "264"^^xsd:integer ;
+              info:score      "8.1"^^xsd:double ;
+              info:reviews    "781"^^xsd:integer ;
+              info:phone      "3383-2795";
+              info:price      "455"^^xsd:integer .
+
+hotel:Fink    info:fullName   "Residence Fink"@en ;
+              info:star       "0"^^xsd:integer ;
+              info:dianZan    "187"^^xsd:integer ;
+              info:score      "8.3"^^xsd:double ;
+              info:reviews    "341"^^xsd:integer ;
+              info:phone      "0288-4197";
+              info:price      "390"^^xsd:integer .
+
+hotel:Gries   info:fullName   "Hotel Post Gries"@en ;
+              info:star       "3"^^xsd:integer ;
+              info:dianZan    "226"^^xsd:integer ;
+              info:score      "8.2"^^xsd:double ;
+              info:reviews    "743"^^xsd:integer ;
+              info:phone      "1693-9937";
+              info:price      "440"^^xsd:integer .
+
+hotel:Ferro   info:fullName   "Hotel Cappello Di Ferro"@en ;
+              info:star       "2"^^xsd:integer ;
+              info:dianZan    "107"^^xsd:integer ;
+              info:score      "6.5"^^xsd:double ;
+              info:reviews    "334"^^xsd:integer ;
+              info:phone      "5105-8209";
+              info:price      "475"^^xsd:integer .
+
+hotel:Eberle  info:fullName   "Hotel Eberle"@en ;
+              info:star       "4"^^xsd:integer ;
+              info:dianZan    "324"^^xsd:integer ;
+              info:score      "8.6"^^xsd:double ;
+              info:reviews    "315"^^xsd:integer ;
+              info:phone      "9445-9230";
+              info:price      "520"^^xsd:integer .
+
+hotel:Kohlern info:fullName   "Hotel Colle Kohlern"@en ;
+              info:star       "3"^^xsd:integer ;
+              info:dianZan    "20"^^xsd:integer ;
+              info:score      "9.5"^^xsd:double ;
+              info:reviews    "10"^^xsd:integer ;
+              info:phone      "8164-0628";
+              info:price      "499"^^xsd:integer .
+
+hotel:Werth   info:fullName   "Pension Werth"@en ;
+              info:star       "2"^^xsd:integer ;
+              info:dianZan    "46"^^xsd:integer ;
+              info:score      "7.1"^^xsd:double ;
+              info:reviews    "75"^^xsd:integer ;
+              info:phone      "6208-9986";
+              info:price      "440"^^xsd:integer .
