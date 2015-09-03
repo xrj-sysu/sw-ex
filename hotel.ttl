@@ -36,7 +36,6 @@ hotel:Regina  info:fullName   "Hotel Regina"@en ;
               info:price      "455"^^xsd:integer .
 
 hotel:Fink    info:fullName   "Residence Fink"@en ;
-              info:star       "0"^^xsd:integer ;
               info:dianZan    "187"^^xsd:integer ;
               info:score      "8.3"^^xsd:double ;
               info:reviews    "341"^^xsd:integer ;
