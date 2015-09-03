@@ -1,6 +1,6 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix hotel: <http://hotel.org/> .
-@predix info: <http://infomation.org/> .
+@prefix info: <http://infomation.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 hotel:Laurin  info:fullName   "Parkhotel Laurin"@en ;
